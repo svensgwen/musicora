@@ -48,7 +48,7 @@ load_songs()
 class MusicPlayer(ctk.CTk):
     def __init__(self):
         super().__init__()
-        self.title("CustomTk Music Player")
+        self.title("Musicora")
         self.geometry("1600x900")
 
         self.current_playlist = 'All Songs'
